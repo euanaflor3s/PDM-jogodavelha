@@ -1,0 +1,14 @@
+{
+  "name": "jogodavelha-pwa-app",
+  "version": "1.0.0",
+  "description": "PWA de um jogo da velha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ana Flores",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
