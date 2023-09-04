@@ -6,13 +6,13 @@
             "src": "images/logo.png",
             "sizes": "256x256",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": " any maskable"
         },
         {
             "src": "images/logo.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "any maskable"
         }
     ],
     "lang": "pt-BR",
