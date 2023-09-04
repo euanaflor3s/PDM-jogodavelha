@@ -24,7 +24,7 @@ window.onload = () => {
   function init() {
     selected = [];
   
-    proxJogador.innerHTML = `JOGADOR DA VEZ: ${jogador}`;
+    proxJogador.innerHTML = `JOGADOR: ${jogador}`;
   
     document.querySelectorAll(".jogo button").forEach((item) => {
       item.innerHTML = "";
@@ -45,7 +45,7 @@ window.onload = () => {
     }, [100]);
   
     jogador = jogador === "X" ? "O" : "X";
-    proxJogador.innerHTML = `JOGADOR DA VEZ: ${jogador}`;
+    proxJogador.innerHTML = `JOGADOR: ${jogador}`;
   }
   
   function check() {
